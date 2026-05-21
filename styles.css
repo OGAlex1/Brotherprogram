@@ -62,8 +62,8 @@ button {
   height: 200px;
   -o-object-fit: cover;
      object-fit: cover;
-  -o-object-position: center;
-     object-position: center;
+  -o-object-position: top;
+     object-position: top;
   border: 5px solid #eb9105;
 }
 #userImage image {
