@@ -1,0 +1,88 @@
+
+
+
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body{
+      background:#111;
+      color:white;
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      padding:20px;
+    }
+
+    .controls{
+      width:350px;
+      display:flex;
+      flex-direction:column;
+      gap:10px;
+      margin-bottom:20px;
+    }
+
+    input, button{
+      padding:12px;
+      border:none;
+      border-radius:8px;
+      font-size:16px;
+    }
+
+    button{
+      background:#ff9800;
+      color:white;
+      cursor:pointer;
+      font-weight:bold;
+    }
+
+    .canvas-container{
+      position:relative;
+      width:500px;
+      height:500px;
+      overflow:hidden;
+      border-radius:10px;
+    }
+
+    /* YOUR BACKGROUND */
+    #background{
+      width:100%;
+      height:100%;
+      object-fit:cover;
+      display:block;
+    }
+
+    /* USER IMAGE */
+    #userImage{
+      position:absolute;
+      top:155px;
+      left:30px;
+      width:200px;
+      height:200px;
+      object-fit:contain;
+      object-position: center;
+     
+      //border:3px solid #eb9105;
+
+        image{
+        width: 100%;
+        height: 100%;
+    }
+    }
+   
+
+    /* USER NAME */
+    #userName{
+      position:absolute;
+      bottom:150px;
+     right: 120px;
+      width:100%;
+      text-align:center;
+      font-size:15px;
+      font-weight:bold;
+      color:white;
+      text-shadow:2px 2px 8px black;
+    }
