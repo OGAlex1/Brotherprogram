@@ -60,11 +60,14 @@ button {
   left: 30px;
   width: 200px;
   height: 200px;
-  -o-object-fit: contain;
-     object-fit: contain;
-  -o-object-position: center;
-     object-position: center;
-  border: 5px solid #eb9105;
+
+     object-fit: cover;
+  object-position: center;
+  object-position: top;
+
+
+  
+  /* border: 5px solid #eb9105; */
 }
 #userImage image {
   width: 100%;
