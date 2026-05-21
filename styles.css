@@ -60,15 +60,12 @@ button {
   left: 30px;
   width: 200px;
   height: 200px;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: top;
-     object-position: top;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: cover;
+     object-position: cover;
+  display: block;
   border: 5px solid #eb9105;
-}
-#userImage image {
-  width: 100%;
-  height: 100%;
 }
 
 /* USER NAME */
