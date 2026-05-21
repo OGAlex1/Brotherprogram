@@ -65,7 +65,7 @@
       object-fit:contain;
       object-position: center;
      
-      border:3px solid #eb9105;
+      border:5px solid #eb9105;
 
         image{
         width: 100%;
@@ -86,3 +86,33 @@
       color:white;
       text-shadow:2px 2px 8px black;
     }
+
+
+    /* Target devices smaller than 550px wide (e.g., most smartphones) */
+@media screen and (max-width: 550px) {
+  body {
+    padding: 10px;
+  }
+
+  /* Scale down the canvas container to fit mobile screens */
+  .canvas-container {
+    width: 320px;
+    height: 320px;
+  }
+
+  /* Scale down and reposition the user image proportionally */
+  #userImage {
+    width: 120px;
+    height: 120px;
+    top: 100px;
+    left: 20px;
+    border-width: 2px;
+  }
+
+  /* Scale down and reposition the text */
+  #userName {
+    bottom: 90px;
+    right: 80px;
+    font-size: 12px;
+  }
+}

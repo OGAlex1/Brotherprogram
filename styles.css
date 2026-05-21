@@ -64,6 +64,7 @@ button {
      object-fit: contain;
   -o-object-position: center;
      object-position: center;
+  border: 5px solid #eb9105;
 }
 #userImage image {
   width: 100%;
@@ -81,4 +82,30 @@ button {
   font-weight: bold;
   color: white;
   text-shadow: 2px 2px 8px black;
-}/*# sourceMappingURL=styles.css.map */
+}
+
+
+@media screen and (max-width: 550px) {
+  body {
+    padding: 10px;
+  }
+
+  .canvas-container {
+    width: 320px;
+    height: 320px;
+  }
+  
+  #userImage {
+    width: 120px;
+    height: 120px;
+    top: 100px;
+    left: 20px;
+    border-width: 2px;
+  }
+ 
+  #userName {
+    bottom: 90px;
+    right: 80px;
+    font-size: 12px;
+  }
+}
